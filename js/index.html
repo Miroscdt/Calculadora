@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora🥷</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<hr class="my-5">
+<body> 
+</div>
+    <div>
+       <div class="mx-auto my-5" style="width:200px;">
+        <h3 align="center"><strong>cal-cool-lator</strong></h3>
+        <hr class="border-1">
+        <div>
+            <input type="number" id="numA" placeholder="Numero A"><span id="operando" style="color:blue;"></span>
+            <div class="my-4 mx-auto"></div>
+            <input type="number" id="numB" placeholder="Numero B">
+            <div class="my-4 mx-auto"></div>
+        </div>
+        <div>
+            <input type="text" id="resultado" placeholder="Resultado">
+        </div>
+       </div> 
+    </div>
+
+    <form action="" class="mx-auto my-5" style="width:200px;">
+        <div class="py- my-2">
+            <button type="button" class="btn btn-outline-primary" onclick="Functionsumar()">+</button>
+            <button type="button" class="btn btn-outline-primary" onclick="Functionrestar()">-</button>
+            <button type="button" class="btn btn-outline-primary" onclick="Functionmult()">X</button>
+            <button type="button" class="btn btn-outline-primary" onclick="Functiondiv()">/</button>
+            <button type="button" class="btn btn-outline-danger" onclick="Functionclear()">C</button>
+        </div>
+    </form>
+    <script src="calculadora.js"></script> 
+
+    <footer class="py-5">
+       <hr class="my-5">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#000b76" fill-opacity="0.2" d="M0,288L160,192L320,192L480,192L640,32L800,32L960,32L1120,96L1280,288L1440,288L1440,320L1280,320L1120,320L960,320L800,320L640,320L480,320L320,320L160,320L0,320Z"></path>
+      </svg>
+    </footer>
+</body>
+</html>
