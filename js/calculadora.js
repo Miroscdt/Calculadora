@@ -1,38 +1,40 @@
-function Functionsumar() {
+function Functionsumar(){
     let numA = parseInt(document.getElementById("numA").value);
     let numB = parseInt(document.getElementById("numB").value);
-    let result = numA + numB;
-    document.getElementById("resultado").value = result;
-    document.getElementById("operando").innerHTML = "+";
+    let result= numA + numB;
+    document.getElementById("resultado").value= result;
+    document.getElementById("operando").innerHTML= "+";
+
 }
 
-function Functionrestar() {
+function Functionrestar(){
     let numA = parseInt(document.getElementById("numA").value);
     let numB = parseInt(document.getElementById("numB").value);
-    let result = numA - numB;
-    document.getElementById("resultado").value = result;
-    document.getElementById("operando").innerHTML = "-";
+    let result= numA - numB;
+    document.getElementById("resultado").value  = result;
+    document.getElementById("operando").innerHTML= "-";
+    
 }
 
-function Functionmult() {
-    let numA = parseInt(document.getElementById("numA").value);
-    let numB = parseInt(document.getElementById("numB").value);
-    let result = numA * numB;
-    document.getElementById("resultado").value = result;
-    document.getElementById("operando").innerHTML = "x";
+function Functionmult(){
+    let numA =  parseInt(document.getElementById("numA").value);
+    let numB =  parseInt(document.getElementById("numB").value);
+    let result= numA * numB;
+    document.getElementById("resultado").value  = result;
+    document.getElementById("operando").innerHTML= "x";
+    
 }
 
-function Functiondiv() {
-    let numA = parseInt(document.getElementById("numA").value);
-    let numB = parseInt(document.getElementById("numB").value);
-    let result = numA / numB;
-    document.getElementById("resultado").value = result;
-    document.getElementById("operando").innerHTML = "/";
+function Functiondiv(){
+    let numA =  parseInt(document.getElementById("numA").value);
+    let numB =  parseInt(document.getElementById("numB").value);
+    let result= numA / numB;
+    document.getElementById("resultado").value  = result;
+    document.getElementById("operando").innerHTML= "/";
 }
-
-
 let Functionclear = () => {
-    document.getElementById("resultado").value = "";
-    document.getElementById("numA").value = "";
-    document.getElementById("numB").value = "";
+    document.getElementById("resultado").value  ="";
+    document.getElementById("numA").value  = "";
+    document.getElementById("numB").value  = "";
+
 }
